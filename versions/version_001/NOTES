@@ -1,0 +1,6 @@
+First quick solution that came to mind. I technically wrote this one
+before version_000; in fact I modified this one in order to produce
+/ precompute the long string.
+
+I initially had three mistakes however, i starting at 0,
+ending at 99, ie doing < rather than <=, and using || instead of &&.

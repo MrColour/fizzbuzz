@@ -6,7 +6,7 @@ FizzBuzz: write a program to output the first 100 lines of
 the FizzBuzz game. The game is described as follows:
 
 Enumerate all the numbers up to N, by incrementing by one
-and having them separated by a comma and a newline. However
+and having them separated by a newline. However
 every number that is evenly divisible by 3 write 'Fizz' instead,
 and every number that is evenly divisible by 5 write 'Buzz' instead.
 If a number is evenly divisible by both 3 and 5 write FizzBuzz.

@@ -1,0 +1,13 @@
+This is to my knowledge the best implementation
+for FizzBuzz in terms of performance. If you take a look
+at things like MD5, a well known hashing algorithm used
+in the earlier ages of computers you will see that a good
+portion of the algorithm is precomputed. For a FizzBuzz program
+that is only responsible for the first 100 lines, precomputing
+and storing that information in a source file is a good approach.
+
+The other benefit is that it is maximally one write system call;
+syscalls being potentially the biggest bottleneck in the different
+variations of this program. This also makes it a solid candidat
+to serve as a base, for which all other variations will be compared
+to.
